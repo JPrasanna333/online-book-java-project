@@ -21,7 +21,7 @@ public interface BookInter {
 		List<Book> getAllBooks() throws BookNotAvailableException;
 		List<Book> getBookbyAuthor(String author) throws AuthorNotFoundException;;
 		List<Book> getBookbycategory(String category)throws CategoryNotFoundException;;
-	
+	//ayan
 	
 
 }
